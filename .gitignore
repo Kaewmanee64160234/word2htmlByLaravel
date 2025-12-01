@@ -1,0 +1,79 @@
+# ============================================
+# Laravel
+# ============================================
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+.env
+.env.backup
+.env.*.local
+
+# Laravel log & cache
+/storage/logs/*.log
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/framework/testing/*
+/bootstrap/cache/*.php
+
+# ============================================
+# Docker
+# ============================================
+/docker/php/*.log
+/docker/nginx/*.log
+/.docker/
+/docker-compose.override.yml
+
+# Docker volumes (local only)
+data/
+docker-data/
+db-data/
+
+# ============================================
+# Editor / OS
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDE
+*.swp
+*.swo
+*.swn
+*.swo
+*.idea/
+*.vscode/
+
+# Composer
+composer.phar
+
+# NPM/Yarn/Bun lock files (optional)
+yarn.lock
+pnpm-lock.yaml
+
+# ============================================
+# Upload Temporary Files
+# ============================================
+/storage/app/uploads/*
+/storage/temp/*
+/storage/app/tmp/*
+
+# Word processing temp files
+~$*.docx
+~$*.doc
+*.tmp
+
+# ============================================
+# Cache
+# ============================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
